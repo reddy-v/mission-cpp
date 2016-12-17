@@ -26,7 +26,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
@@ -71,6 +71,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\Array\Array;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -88,6 +89,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\Array\Array;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,6 +147,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Arrayh.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -157,7 +160,10 @@
     <ClCompile Include="..\..\..\..\..\NewProj\SelfCrossing.cpp" />
     <ClCompile Include="..\..\..\..\..\NewProj\ShortestPalindrome.cpp" />
     <ClCompile Include="..\..\..\..\..\NewProj\ThreeSumSmallerThanTarget.cpp" />
+    <ClCompile Include="2DPeak.cpp" />
+    <ClCompile Include="CheckIfArrayElementsAreConsecutive.cpp" />
     <ClCompile Include="CountOccurenceInSortedArray.cpp" />
+    <ClCompile Include="LongestSubSequenceofConsecutiveNumbers.cpp" />
     <ClCompile Include="MaximumOfSubarrayOfSizeK.cpp" />
     <ClCompile Include="MaximumSumPathTwoArrays.cpp" />
     <ClCompile Include="MaximumSumSubArray.cpp" />

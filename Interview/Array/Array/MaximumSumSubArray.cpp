@@ -30,7 +30,7 @@ public :
 };
 
 
-int holly23()
+int holly24()
 {
 	MaximiumSumSubArray mssa;
 	cout << mssa.Solution1({ -2, -3, 4, -1, -2, 1, 5, -3 }) << endl;

@@ -1,0 +1,4 @@
+﻿  MaxStack.cpp
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\stackqueue\stackqueue\maxstack.cpp(43): warning C4715: 'MaxStack::pop': not all control paths return a value
+  StackQueue.vcxproj -> C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\StackQueue\Debug\StackQueue.exe
+  StackQueue.vcxproj -> C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\StackQueue\Debug\StackQueue.pdb (Full PDB)

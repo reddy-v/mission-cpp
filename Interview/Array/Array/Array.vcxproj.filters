@@ -24,6 +24,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Arrayh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -81,6 +84,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MaximumSumSubArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2DPeak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckIfArrayElementsAreConsecutive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestSubSequenceofConsecutiveNumbers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,0 +1,9 @@
+﻿  StringCompression.cpp
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\string\string\stringcompression.cpp(21): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Compiling...
+  TwoStringsAnagrams.cpp
+  Generating Code...
+     Creating library C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\String\Debug\String.lib and object C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\String\Debug\String.exp
+  String.vcxproj -> C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\String\Debug\String.dll
+  String.vcxproj -> C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\String\Debug\String.pdb (Full PDB)

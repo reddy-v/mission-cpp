@@ -1,0 +1,7 @@
+﻿  2DPeak.cpp
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\algorithms\algorithms\2dpeak.cpp(8): error C2332: 'class': missing tag name
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\algorithms\algorithms\2dpeak.cpp(8): warning C4094: untagged 'class' declared no symbols
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\algorithms\algorithms\2dpeak.cpp(8): error C2143: syntax error: missing ';' before 'user-defined literal'
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\algorithms\algorithms\2dpeak.cpp(8): error C2059: syntax error: 'user-defined literal'
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\algorithms\algorithms\2dpeak.cpp(8): error C2143: syntax error: missing ';' before '{'
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\algorithms\algorithms\2dpeak.cpp(8): error C2447: '{': missing function header (old-style formal list?)
