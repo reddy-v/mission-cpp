@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  LowestCommonAncestor.cpp
+  CreateBSTSortedArray.cpp
+  BinaryTree.cpp
+  Generating Code...
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\binarytree\binarytree\lowestcommonancestor.cpp(68): warning C4715: 'LowestCommonAncestor::Solution2Util': not all control paths return a value
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\binarytree\binarytree\lowestcommonancestor.cpp(12): warning C4717: 'LowestCommonAncestor::print': recursive on all control paths, function will cause runtime stack overflow
+  BinaryTree.vcxproj -> C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\BinaryTree\Debug\BinaryTree.lib

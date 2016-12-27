@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTree", "BinaryTree\BinaryTree.vcxproj", "{DAC44E4F-3EE4-4E7A-8139-5B063BD228EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinaryTree_UnitTest", "BinaryTree_UnitTest\BinaryTree_UnitTest.vcxproj", "{35F5B433-A7F6-484D-903D-12151039C36C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{DAC44E4F-3EE4-4E7A-8139-5B063BD228EC}.Release|x64.Build.0 = Release|x64
 		{DAC44E4F-3EE4-4E7A-8139-5B063BD228EC}.Release|x86.ActiveCfg = Release|Win32
 		{DAC44E4F-3EE4-4E7A-8139-5B063BD228EC}.Release|x86.Build.0 = Release|Win32
+		{35F5B433-A7F6-484D-903D-12151039C36C}.Debug|x64.ActiveCfg = Debug|x64
+		{35F5B433-A7F6-484D-903D-12151039C36C}.Debug|x64.Build.0 = Debug|x64
+		{35F5B433-A7F6-484D-903D-12151039C36C}.Debug|x86.ActiveCfg = Debug|Win32
+		{35F5B433-A7F6-484D-903D-12151039C36C}.Debug|x86.Build.0 = Debug|Win32
+		{35F5B433-A7F6-484D-903D-12151039C36C}.Release|x64.ActiveCfg = Release|x64
+		{35F5B433-A7F6-484D-903D-12151039C36C}.Release|x64.Build.0 = Release|x64
+		{35F5B433-A7F6-484D-903D-12151039C36C}.Release|x86.ActiveCfg = Release|Win32
+		{35F5B433-A7F6-484D-903D-12151039C36C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
