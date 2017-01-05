@@ -1,0 +1,10 @@
+﻿  EffectiveModernCpp.cpp
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\effectivemoderncpp\effectivemoderncpp\item24universalrefvsrvalueref.h(49): warning C4305: 'initializing': truncation from 'double' to 'float'
+  c:\users\ragha\onedrive\documents\github\mission-cpp\interview\effectivemoderncpp\effectivemoderncpp\item24universalrefvsrvalueref.h(45): note: while compiling class template member function 'void Item24UniversalRefvsRvalueref<int>::Test(void)'
+  c:\users\ragha\onedrive\documents\github\mission-cpp\interview\effectivemoderncpp\effectivemoderncpp\effectivemoderncpp.cpp(10): note: see reference to function template instantiation 'void Item24UniversalRefvsRvalueref<int>::Test(void)' being compiled
+  c:\users\ragha\onedrive\documents\github\mission-cpp\interview\effectivemoderncpp\effectivemoderncpp\effectivemoderncpp.cpp(10): note: see reference to class template instantiation 'Item24UniversalRefvsRvalueref<int>' being compiled
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Item24UniversalRefvsRvalueref.cpp
+  EffectiveModernCpp.vcxproj -> C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\EffectiveModernCpp\Debug\EffectiveModernCpp.exe
+  EffectiveModernCpp.vcxproj -> C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\EffectiveModernCpp\Debug\EffectiveModernCpp.pdb (Full PDB)

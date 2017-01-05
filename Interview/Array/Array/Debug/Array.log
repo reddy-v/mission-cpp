@@ -1,11 +1,6 @@
-﻿  ArrayAddition.cpp
-  Generating Code...
-  Compiling...
-  AdditiveNumber.cpp
-c:\users\ragha\onedrive\documents\newproj\additivenumber.cpp(31): warning C4018: '<=': signed/unsigned mismatch
-c:\users\ragha\onedrive\documents\newproj\additivenumber.cpp(37): warning C4018: '<=': signed/unsigned mismatch
-c:\users\ragha\onedrive\documents\newproj\additivenumber.cpp(56): warning C4018: '<': signed/unsigned mismatch
+﻿  MaximumSubArrayAtMostOne.cpp
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\array\array\maximumsubarrayatmostone.cpp(23): warning C4018: '<': signed/unsigned mismatch
+  LongestSubSequenceofConsecutiveNumbers.cpp
   Generating Code...
 2DPeak.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
-SelfCrossing.obj : warning LNK4006: "int __cdecl holly20(void)" (?holly20@@YAHXZ) already defined in LongestSubSequenceofConsecutiveNumbers.obj; second definition ignored
   Array.vcxproj -> C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\Array\Debug\Array.lib

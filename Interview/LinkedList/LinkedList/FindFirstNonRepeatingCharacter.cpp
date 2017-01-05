@@ -17,7 +17,7 @@ private :
 public :
 	void Solution1()
 	{
-		vector<node*> DLL(256, nullptr);
+		vector<noded*> DLL(256, nullptr);
 		vector<bool> repeat(256, false);
 		cout << repeat.size() << endl;
 		cout << boolalpha << repeat[117] << endl;

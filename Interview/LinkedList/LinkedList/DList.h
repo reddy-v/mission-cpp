@@ -1,20 +1,20 @@
 #pragma once
 
-struct node
+struct noded
 {
 	char data;
-	node* next=nullptr;
-	node* prev=nullptr;
-	node(int d,node* n,node* p) : data(d), next(n), prev(p) { }
+	noded* next=nullptr;
+	noded* prev=nullptr;
+	noded(int d,noded* n,noded* p) : data(d), next(n), prev(p) { }
 };
 class DList
 {
-	node* head=nullptr;
-	node* tail=nullptr;
+	noded* head=nullptr;
+	noded* tail=nullptr;
 public:
 	DList();
-	node* Insert(char);
-	void Remove(node*);
+	noded* Insert(char);
+	void Remove(noded*);
 	inline char HeadData() const
 	{
 		if (head != nullptr)

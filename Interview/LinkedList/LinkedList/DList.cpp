@@ -6,16 +6,16 @@ DList::DList()
 {
 }
 
-node* DList::Insert(char x)
+noded* DList::Insert(char x)
 {
 	if(tail==nullptr)
 	{
-		tail = new node(x, nullptr, nullptr);
+		tail = new noded(x, nullptr, nullptr);
 		head = tail;
 	}
 	else
 	{
-		node* temp = new node(x, nullptr, nullptr);
+		noded* temp = new noded(x, nullptr, nullptr);
 		tail->next = temp;
 		temp->prev = tail;
 		tail = temp;
@@ -23,7 +23,7 @@ node* DList::Insert(char x)
 	return tail;
 }
 
-void DList::Remove(node* n)
+void DList::Remove(noded* n)
 {
 	auto prev = n->prev;
 	auto next = n->next;

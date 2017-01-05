@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DList.h" />
+    <ClInclude Include="ReverseLinkedListRecursive.h" />
     <ClInclude Include="SList.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -159,6 +160,7 @@
     <ClCompile Include="DList.cpp" />
     <ClCompile Include="FindFirstNonRepeatingCharacter.cpp" />
     <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="ReverseLinkedListRecursive.cpp" />
     <ClCompile Include="SList.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

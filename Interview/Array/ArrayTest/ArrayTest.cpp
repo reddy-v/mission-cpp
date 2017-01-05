@@ -2,7 +2,8 @@
 //
 
 #include "gtest/gtest.h"
-#include "Arrayh.h"
+#include "AdditiveNumber.h"
+#include "ArrayAddition.h"
 
 TEST(AdditiveNumberTest, TrueCase123)
 {

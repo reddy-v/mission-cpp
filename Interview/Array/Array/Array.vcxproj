@@ -147,7 +147,12 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AdditiveNumber.h" />
+    <ClInclude Include="ArrayAddition.h" />
     <ClInclude Include="Arrayh.h" />
+    <ClInclude Include="LongestPalindrome.h" />
+    <ClInclude Include="MaximumSubArrayAtMostOne.h" />
+    <ClInclude Include="NextGreaterElement.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
@@ -163,13 +168,16 @@
     <ClCompile Include="2DPeak.cpp" />
     <ClCompile Include="CheckIfArrayElementsAreConsecutive.cpp" />
     <ClCompile Include="CountOccurenceInSortedArray.cpp" />
+    <ClCompile Include="LongestPalindrome.cpp" />
     <ClCompile Include="LongestSubSequenceofConsecutiveNumbers.cpp" />
     <ClCompile Include="MaximumOfSubarrayOfSizeK.cpp" />
+    <ClCompile Include="MaximumSubArrayAtMostOne.cpp" />
     <ClCompile Include="MaximumSumPathTwoArrays.cpp" />
     <ClCompile Include="MaximumSumSubArray.cpp" />
     <ClCompile Include="MaxProductSubarray.cpp" />
     <ClCompile Include="Meeting.cpp" />
     <ClCompile Include="MinimumDistanceBetweenTwoNumbers.cpp" />
+    <ClCompile Include="NextGreaterElement.cpp" />
     <ClCompile Include="ReorderArrayByIndex.cpp" />
     <ClCompile Include="SearchElementInCircularSorted.cpp" />
     <ClCompile Include="StableMarriageProblem.cpp" />

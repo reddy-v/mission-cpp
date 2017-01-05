@@ -22,6 +22,11 @@ SList::SList(const std::vector<int>& v)
 	}
 }
 
+void SList::setHead(node* n)
+{
+	head = n;
+}
+
 void SList::Insert(int x)
 {
 	node* temp = new node(x, head);
@@ -37,6 +42,19 @@ void SList::Print() const
 		temp = temp->next;
 	}
 	cout << endl;
+}
+
+std::vector<int> SList::tovec()
+{
+	vector<int> v;
+	auto temp = Head();
+	while(temp!=nullptr)
+	{
+		v.push_back(temp->data);
+		temp = temp->next;
+	}
+	return v;
+
 }
 
 SList::~SList()

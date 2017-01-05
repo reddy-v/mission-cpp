@@ -16,8 +16,10 @@ public:
 	SList(const std::vector<int>& v);
 	inline int siz() const { return size; }
 	inline node* Head() const { return head;  }
+	void setHead(node* n);
 	void Insert(int);
 	void Print() const;
+	std::vector<int> tovec();
 	~SList();
 };
 

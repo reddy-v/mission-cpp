@@ -1,3 +1,6 @@
-﻿  DeleteNodeWithGreaterValueOnRight.cpp
+﻿  SList.cpp
+c:\users\ragha\onedrive\documents\github\mission-cpp\interview\linkedlist\linkedlist\slist.cpp(17): warning C4018: '<': signed/unsigned mismatch
+  ReverseLinkedListRecursive.cpp
+  Generating Code...
   LinkedList.vcxproj -> C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\LinkedList\Debug\LinkedList.exe
   LinkedList.vcxproj -> C:\Users\ragha\OneDrive\Documents\GitHub\mission-cpp\Interview\LinkedList\Debug\LinkedList.pdb (Full PDB)

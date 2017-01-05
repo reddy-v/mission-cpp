@@ -15,9 +15,10 @@ using namespace std;
 
 string StringCompression::Solution1(const string& s)
 {
-	string res;
-	int num = 1;
-	int siz = s.size() - 1;
+	string res;  // result string
+	int num = 1; // count the similar contiguous characters
+	int siz = s.size() - 1;  
+	// check similar characters till siz-2
 	for (int i = 0; i < s.size() - 2; i++)
 	{
 		if (s[i] == s[i + 1])

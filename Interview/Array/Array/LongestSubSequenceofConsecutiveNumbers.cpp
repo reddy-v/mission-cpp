@@ -38,7 +38,7 @@ public :
 	}
 };
 
-int holly20()
+int holly35()
 {
 	LongestSubSequenceofConsecutiveNumbers lsofcn;
 	cout << lsofcn.Solution1({ 1,2, 7,5,4,6, 14,23,11,12, 8 } ) << endl;

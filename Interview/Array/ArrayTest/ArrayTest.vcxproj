@@ -155,6 +155,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayTest.cpp" />
+    <ClCompile Include="LongestPalindromeTest.cpp" />
+    <ClCompile Include="MaximumSubArrayAtMostOneTest.cpp" />
+    <ClCompile Include="NextGreatestElementTest.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
