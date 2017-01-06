@@ -20,6 +20,7 @@ void BinaryTree::Insert(int x)
 		auto prev = root.get();
 		while(temp!=nullptr)
 		{
+			temp->siz++;
 			prev = temp;
 			if (x < temp->data)
 				temp = temp->left.get();
@@ -89,6 +90,11 @@ bool BinaryTree::checkBST()
 {
 	auto temp = getRoot();
 	return checkBSTUtil(temp, INT_MIN, INT_MAX);
+}
+
+int BinaryTree::printIndex(int x) const
+{
+
 }
 
 void BinaryTree::print(const unique_ptr<node>& n) const
